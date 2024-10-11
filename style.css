@@ -1,0 +1,24 @@
+/* Tìm tất cả các title có chữ "tuhoc.cc" đứng riêng lẻ */
+[title~="tuhoc.cc"] {
+  color: brown;
+}
+
+/* Tìm tất cả các title có chữ "jikade" */
+[title*="jikade"] {
+  color: coral;
+}
+
+/* Tìm tất cả các title có duy nhất chữ "pic" hoặc có dấu nối và đứng ở đầu*/
+[title|="pic"] {
+  color: rgb(0, 139, 14);
+}
+
+/* Tìm tất cả các title có chữ "pic" đứng đầu*/
+[title^="hokage"] {
+  color: rgb(139, 0, 0);
+}
+
+/* Tìm tất cả các title có kí tự "1" đứng cuối cùng */
+[title$="1"] {
+  color: rgb(137, 139, 0);
+}
